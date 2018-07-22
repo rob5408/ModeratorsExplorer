@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import Foundation
+import ModeratorNetwork
 
 protocol ModeratorsViewModelDelegate: class {
   func onFetchCompleted(with newIndexPathsToReload: [IndexPath]?)

@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import UIKit
+import ModeratorNetwork
 
 class ModeratorsListViewController: UIViewController, AlertDisplayer {
   private enum CellIdentifiers {

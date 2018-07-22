@@ -7,50 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E553CD42042D0430078A8B4 /* ModeratorRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E553CD32042D0430078A8B4 /* ModeratorRequest.swift */; };
-		1E6624E82041BC730054472B /* PagedModeratorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6624E72041BC730054472B /* PagedModeratorResponse.swift */; };
-		1E8337A32042F53900265603 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8337A22042F53900265603 /* Double+Extensions.swift */; };
+		4AB363882104099000404D9D /* ModeratorNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB363872104099000404D9D /* ModeratorNetwork.framework */; };
 		5C2901831F8F6DE700803663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */; };
 		9AA04264203C887E00227AEA /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04253203C887D00227AEA /* ColorPalette.swift */; };
 		9AA04266203C887E00227AEA /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04255203C887D00227AEA /* UITextField+Extensions.swift */; };
 		9AA04267203C887E00227AEA /* ButtonEnablingBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04256203C887D00227AEA /* ButtonEnablingBehavior.swift */; };
 		9AA04268203C887E00227AEA /* ModeratorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04257203C887D00227AEA /* ModeratorTableViewCell.swift */; };
-		9AA04269203C887E00227AEA /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04258203C887D00227AEA /* String+Extensions.swift */; };
-		9AA0426A203C887E00227AEA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04259203C887D00227AEA /* Result.swift */; };
-		9AA0426B203C887E00227AEA /* URLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0425A203C887D00227AEA /* URLRequest.swift */; };
 		9AA0426C203C887E00227AEA /* ModeratorsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0425B203C887D00227AEA /* ModeratorsListViewController.swift */; };
-		9AA0426D203C887E00227AEA /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0425C203C887E00227AEA /* DataResponseError.swift */; };
-		9AA0426E203C887E00227AEA /* Moderator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0425D203C887E00227AEA /* Moderator.swift */; };
 		9AA04270203C887E00227AEA /* ModeratorsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA0425F203C887E00227AEA /* ModeratorsViewModel.swift */; };
 		9AA04271203C887E00227AEA /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04260203C887E00227AEA /* AlertDisplayer.swift */; };
-		9AA04272203C887E00227AEA /* StackExchangeClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04261203C887E00227AEA /* StackExchangeClient.swift */; };
 		9AA04273203C887E00227AEA /* ModeratorsSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04262203C887E00227AEA /* ModeratorsSearchViewController.swift */; };
-		9AA04274203C887E00227AEA /* HTTPURLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA04263203C887E00227AEA /* HTTPURLResponse.swift */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
 		D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1E553CD32042D0430078A8B4 /* ModeratorRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeratorRequest.swift; sourceTree = "<group>"; };
-		1E6624E72041BC730054472B /* PagedModeratorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagedModeratorResponse.swift; sourceTree = "<group>"; };
-		1E8337A22042F53900265603 /* Double+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
+		4AB363872104099000404D9D /* ModeratorNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModeratorNetwork.framework; path = Carthage/Build/iOS/ModeratorNetwork.framework; sourceTree = "<group>"; };
 		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AA04253203C887D00227AEA /* ColorPalette.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPalette.swift; sourceTree = "<group>"; };
 		9AA04255203C887D00227AEA /* UITextField+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
 		9AA04256203C887D00227AEA /* ButtonEnablingBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonEnablingBehavior.swift; sourceTree = "<group>"; };
 		9AA04257203C887D00227AEA /* ModeratorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeratorTableViewCell.swift; sourceTree = "<group>"; };
-		9AA04258203C887D00227AEA /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		9AA04259203C887D00227AEA /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		9AA0425A203C887D00227AEA /* URLRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLRequest.swift; sourceTree = "<group>"; };
 		9AA0425B203C887D00227AEA /* ModeratorsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeratorsListViewController.swift; sourceTree = "<group>"; };
-		9AA0425C203C887E00227AEA /* DataResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataResponseError.swift; sourceTree = "<group>"; };
-		9AA0425D203C887E00227AEA /* Moderator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moderator.swift; sourceTree = "<group>"; };
 		9AA0425F203C887E00227AEA /* ModeratorsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeratorsViewModel.swift; sourceTree = "<group>"; };
 		9AA04260203C887E00227AEA /* AlertDisplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
-		9AA04261203C887E00227AEA /* StackExchangeClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackExchangeClient.swift; sourceTree = "<group>"; };
 		9AA04262203C887E00227AEA /* ModeratorsSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModeratorsSearchViewController.swift; sourceTree = "<group>"; };
-		9AA04263203C887E00227AEA /* HTTPURLResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPURLResponse.swift; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* ModeratorsExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModeratorsExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2A5F20A1F4A9144005CD714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,41 +45,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AB363882104099000404D9D /* ModeratorNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E553CD52042DD450078A8B4 /* Models */ = {
+		4AB363842104086800404D9D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9AA0425D203C887E00227AEA /* Moderator.swift */,
+				4AB363872104099000404D9D /* ModeratorNetwork.framework */,
 			);
-			name = Models;
-			sourceTree = "<group>";
-		};
-		9AA04275203C88CE00227AEA /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				9AA0425C203C887E00227AEA /* DataResponseError.swift */,
-				9AA04263203C887E00227AEA /* HTTPURLResponse.swift */,
-				1E553CD32042D0430078A8B4 /* ModeratorRequest.swift */,
-				1E6624E72041BC730054472B /* PagedModeratorResponse.swift */,
-				9AA04259203C887D00227AEA /* Result.swift */,
-				9AA04261203C887E00227AEA /* StackExchangeClient.swift */,
-				9AA0425A203C887D00227AEA /* URLRequest.swift */,
-				1E553CD52042DD450078A8B4 /* Models */,
-			);
-			name = Networking;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		9AA04277203C88ED00227AEA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				9AA04260203C887E00227AEA /* AlertDisplayer.swift */,
-				1E8337A22042F53900265603 /* Double+Extensions.swift */,
-				9AA04258203C887D00227AEA /* String+Extensions.swift */,
 				9AA04255203C887D00227AEA /* UITextField+Extensions.swift */,
 			);
 			name = Extensions;
@@ -159,6 +125,7 @@
 			children = (
 				D2A5F2021F4A9144005CD714 /* ModeratorsExplorer */,
 				D2A5F2011F4A9144005CD714 /* Products */,
+				4AB363842104086800404D9D /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -181,7 +148,6 @@
 				9AA0427C203C89A000227AEA /* Constants */,
 				9AEDE1362044081B00FA6201 /* Controllers */,
 				9AA04277203C88ED00227AEA /* Extensions */,
-				9AA04275203C88CE00227AEA /* Networking */,
 				9AA0427A203C894000227AEA /* Resources */,
 				9AA04279203C891000227AEA /* ViewModels */,
 				9AA0427D203C8A1600227AEA /* Views */,
@@ -196,8 +162,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2A5F2121F4A9144005CD714 /* Build configuration list for PBXNativeTarget "ModeratorsExplorer" */;
 			buildPhases = (
-				D2A5F1FC1F4A9144005CD714 /* Sources */,
 				D2A5F1FD1F4A9144005CD714 /* Frameworks */,
+				4AB363832104083000404D9D /* ShellScript */,
+				D2A5F1FC1F4A9144005CD714 /* Sources */,
 				D2A5F1FE1F4A9144005CD714 /* Resources */,
 			);
 			buildRules = (
@@ -256,30 +223,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4AB363832104083000404D9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/ModeratorNetwork.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2A5F1FC1F4A9144005CD714 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AA04269203C887E00227AEA /* String+Extensions.swift in Sources */,
 				9AA04270203C887E00227AEA /* ModeratorsViewModel.swift in Sources */,
 				9AA04273203C887E00227AEA /* ModeratorsSearchViewController.swift in Sources */,
 				9AA04271203C887E00227AEA /* AlertDisplayer.swift in Sources */,
-				1E8337A32042F53900265603 /* Double+Extensions.swift in Sources */,
 				9AA0426C203C887E00227AEA /* ModeratorsListViewController.swift in Sources */,
 				9AA04268203C887E00227AEA /* ModeratorTableViewCell.swift in Sources */,
-				1E553CD42042D0430078A8B4 /* ModeratorRequest.swift in Sources */,
 				9AA04267203C887E00227AEA /* ButtonEnablingBehavior.swift in Sources */,
-				9AA0426D203C887E00227AEA /* DataResponseError.swift in Sources */,
 				9AA04266203C887E00227AEA /* UITextField+Extensions.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
-				9AA0426B203C887E00227AEA /* URLRequest.swift in Sources */,
-				9AA0426E203C887E00227AEA /* Moderator.swift in Sources */,
-				9AA04274203C887E00227AEA /* HTTPURLResponse.swift in Sources */,
-				9AA0426A203C887E00227AEA /* Result.swift in Sources */,
 				9AA04264203C887E00227AEA /* ColorPalette.swift in Sources */,
-				1E6624E82041BC730054472B /* PagedModeratorResponse.swift in Sources */,
-				9AA04272203C887E00227AEA /* StackExchangeClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +387,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SQNKFS4AYP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ModeratorsExplorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.ModeratorsExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,7 +408,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = SQNKFS4AYP;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ModeratorsExplorer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.razeware.ModeratorsExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -27,6 +27,7 @@
 /// THE SOFTWARE.
 
 import UIKit
+import ModeratorNetwork
 
 class ModeratorTableViewCell: UITableViewCell {
   @IBOutlet var displayNameLabel: UILabel!
